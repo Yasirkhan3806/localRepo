@@ -1,0 +1,140 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.c-heading-cont{
+    margin-top: 15svh;
+}
+
+.c-heading-cont > h2{
+    text-align: center;
+}
+
+.c-heading-cont > p{
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin-top: 3svh;
+}
+.reason-cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 91px;
+    justify-content: space-around;
+}
+
+.reasons{
+    height:170.50px ;
+    width:240px;
+    border: 2px solid rgba(0, 0, 0, 0.199);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reasons > img{
+    height: 64px;
+    width: 64px;
+}
+.reasons > h2{
+    margin-bottom: 0px;
+}
+.map-cont{
+    height: 782px;
+    width: 100%;
+    opacity: 0.4;
+    margin-bottom: -20svh;
+    margin-top: 20svh;
+    border: 2px solid rgba(0, 0, 0, 0.274);
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    height: 512px;
+    position: absolute;
+    top: 126%;
+    right: 2%;
+  }
+  
+  .title {
+    font-size: 23px;
+    font-weight: 600;
+
+  }
+  
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .group {
+    position: relative;
+  }
+  
+  .form .group label {
+    font-size: 14px;
+    color: rgb(99, 102, 102);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    transition: all .3s ease;
+  }
+  
+  .form .group input,
+  .form .group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 45px;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+  }
+  
+  .form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {
+    top: 10px;
+    background-color: transparent;
+  }
+  
+  .form .group input:focus,
+  .form .group textarea:focus {
+    border-color: #3366cc;
+  }
+  
+  .form .group input:focus+ label, .form .group textarea:focus +label {
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    color: #3366cc;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .form .group textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .form button {
+    background-color: #22C55E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .form button:hover {
+    background-color: #1ea04d;
+  }
+  
+  

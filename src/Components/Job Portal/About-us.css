@@ -1,0 +1,106 @@
+.m-cont{
+    display: flex;
+    gap: 11svh;
+    height: 80svh;
+}
+.A-content-cont{
+    width: 50svw;
+    height: 25svh;
+}
+.text-container {
+    height: 30svh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 56svw;
+    padding-top: 16svh;
+}
+.text-container > p{
+    color: rgba(0, 0, 0, 0.438);
+    width: 30svw;
+    font-size: 16px;
+margin-top: 3svh;
+}
+.text-container > h2{
+    font-weight:normal;
+    font-size: 40px;
+    /* width: 30svw; */
+}
+
+@media (min-width: 769px) and (max-width: 972px){
+    .m-cont {
+        display: flex;
+        gap: 5svw;
+        height: 36svw;
+    }
+    .text-container > h2 {
+        font-weight: normal;
+        font-size: 3svw;
+    }
+    .text-container > p {
+        color: rgba(0, 0, 0, 0.438);
+        width: 41svw;
+        font-size: 12px;
+        margin-top: -1svh;
+    }
+    .text-container {
+        padding-top: 4svw;
+        width: 52svw;
+    }
+}
+
+@media only screen and (max-width: 432px){
+    .m-cont {
+        display: flex;
+        gap: 0svw;
+        height: 166svw;
+        flex-direction: column;
+      }
+      .A-img-cont > img{
+        height: 78svw;
+        max-width: 149%;
+      }
+      .A-content-cont {
+        width: 84svw;
+        height: 35svh;
+      }
+      .text-container {
+        padding-top: 16svw;
+        width: 83svw;
+      }
+      
+      .text-container > h2 {
+        font-weight: normal;
+        font-size: 8svw;
+        width: 96svw;
+    }
+    .text-container > p {
+        color: rgba(0, 0, 0, 0.438);
+        width: 98svw;
+        font-size: 5svw;
+        margin-top: -1svh;
+        line-height: 5.2svw;
+      }
+}
+
+@media (min-width: 473px) and (max-width: 768px){
+    .m-cont {
+        display: flex;
+        gap: 5svw;
+        height: 36svw;
+    }
+    .text-container > h2 {
+        font-weight: normal;
+        font-size: 3svw;
+    }
+    .text-container > p {
+        color: rgba(0, 0, 0, 0.438);
+        width: 41svw;
+        font-size: 12px;
+        margin-top: -1svh;
+    }
+    .text-container {
+        padding-top: 4svw;
+        width: 52svw;
+    }
+}

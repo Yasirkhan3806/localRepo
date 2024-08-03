@@ -1,0 +1,554 @@
+.bg-transparent {
+  background-color:#22283100 !important;
+}
+h6{
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 12px;
+  margin: 28px;
+  z-index: 3;
+  position: fixed; /* Change to relative */
+  top: 0px;
+  margin-bottom: 0px;
+}
+
+.job-nav-link {
+  color: white;
+}
+
+.job-navbar {
+  padding: none;
+}
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  gap: 263px;
+}
+
+.navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  width: 834px;
+  justify-content: space-between;
+}
+
+nav > div > a > img {
+  min-width: 100%;
+  max-height: 40px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.nav-buttons {
+  border: 2px solid #2d8a11;
+  border-radius: 28px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  padding-left: 27px !important;
+  padding-right: 27px !important;
+  font-size: 17px;
+  color: #67B74E;
+  font-weight: bolder;
+}
+
+.nav-job-btn {
+  background-color: #2d8a11;
+  color: white;
+}
+
+/* HOME INTRO.CSS STARTS */
+.main-cont{
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed; /* Ensure fixed attachment */
+  background-position: center;
+  height: 100svh;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.267); /* Black color with 50% opacity */
+  z-index: 1;
+}
+
+
+.content {
+  position: relative;
+  z-index: 2;
+  color: white; /* Optional: to ensure text is readable */
+}
+
+.job-adv-m-cont {
+  height: 85svh;
+  background: transparent;
+  /* margin-top: 3svh; */
+  margin-left: 10svh;
+}
+
+.job-adv-m-cont > h1 {
+  color: white;
+  font-size: 77px;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
+
+.job-adv-m-cont > h6 {
+  line-height: 91px;
+  color: white;
+  font-size: 77px;
+  letter-spacing: 1px;
+}
+
+.job-adv-m-cont > p {
+  color: rgba(255, 255, 255, 0.719);
+  line-height: 140px;
+  padding-top: 13svh;
+}
+
+.options-cont {
+  display: flex;
+  background-color: white;
+  gap: 10px;
+  width: 61svw;
+  height: 14svh;
+  padding: 20px 0px;
+  border-radius: 0% 2% 2% 2%;
+}
+
+.options-cont > input {
+  height: 48px;
+  border-radius: 5%;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  padding: 22px;
+  outline: none;
+}
+
+select {
+  width: 13svw;
+  border-radius: 5px;
+  padding: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  outline: none;
+  color: rgba(0, 0, 0, 0.486);
+}
+
+.job-i-cont {
+  position: relative;
+  top: 12.5px;
+  left: 30px;
+}
+
+.search-btn {
+  width: 175px;
+  border-radius: 6%;
+  border: none;
+  background: #23A12E;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+/* Job-adv2.css starts */
+.j2-m-cont {
+  height: 79svh;
+  background-color: #F8F9FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10svh;
+}
+.j2-adv-cont{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 221px;
+}
+.j2-adv-cont > img{
+  width: 75px;
+  height: 75px;
+ 
+}
+.j2-adv-cont > h6{
+ 
+  font-size: 20px;
+  font-weight: 400;
+}
+.j2-adv-cont > p{
+  color: rgba(0, 0, 0, 0.452);
+  font-size: 15px;
+}
+
+/* CURRENT-JOBS.CSS STARTS */
+
+.current-j-m-cont{
+  background-color: white;
+  height: 100svh;
+  padding-top: 15svh;
+}
+
+.j-cat-conts-cont{
+  height: 60svh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.j-cat-conts{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  height: 40svh;
+  width: 20svw;
+  gap: 15px;
+}
+.cates{
+  border: 1.5px solid #D5F3E2;
+  height: 6.5svh;
+  width: 19.5svw;
+ padding: 6px 16px;
+ border-radius: 5%;
+ transition: 0.5s ;
+ cursor: pointer;
+}
+.cates:hover{
+  background-color: #d5f3e260;
+}
+.cates:hover a > h5{
+  color: #44f594;
+}
+.cates > a{
+  text-decoration: none;
+ color: rgba(0, 0, 0, 0) !important;
+}
+.cates > a > h5{
+  color: black;
+  transition: o.5s;
+}
+
+/* COUNTING THINGS.CSS STARTS */
+
+.counting-m-cont{
+  height: 35svh;
+border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 140px;
+}
+.counting-conts > h2{
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+.counting-conts > p{
+  color: rgba(255, 255, 255, 0.719);
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+/* NEWSLETTER.CSS STARTS */
+
+.news-m-cont{
+  height: 50svh;
+  background-color: #23A12E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.news-m-cont > h2{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin: 0px;
+}
+.news-m-cont > p{
+  color: rgba(255, 255, 255, 0.699);
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  font-family: sans-serif;
+  width:49svw;
+  font-weight: 500;
+  margin: 3svh 0svh;
+}
+.news-m-cont > form > input{
+  width: 308px;
+    height: 50px;
+    border-radius: 7px 0px 0px 7px;
+   border: none;
+   padding: 0px 20px
+}
+.news-m-cont > form > button{
+  height: 50px;
+  width: 100px;
+  background-color: rgb(69, 202, 69);
+  color: white;
+  border: none;
+border-radius: 0px 7px 7px 0px;
+}
+
+/* FOOTER.CSS STARTS */
+
+.j-footer-m-cont{
+  height: 100svh;
+  background-color: #222831;
+
+}
+.j-footer-m-cont > p{
+  color: rgba(255, 255, 255, 0.452);
+    text-align: center;
+    margin-top: 20svh;
+    font-family: sans-serif;
+    font-size: 15px;
+   
+
+}
+.content-m-cont{
+  display: flex;
+  justify-content: space-around;
+  gap: 39svh;
+}
+.content-cont{
+  height: 50svh;
+  width: 20svw;
+  margin-top: 14svh;
+}
+.content-cont > h5{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin: 37px 0px;
+  letter-spacing: 1px;
+}
+.content-cont > p{
+  color: rgba(255, 255, 255, 0.699);
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  font-family: sans-serif;
+ font-weight: 500;
+ line-height: 24px;
+ margin-bottom: 24px;
+}
+.j-social-cont{
+  display: flex;
+  gap: 15px;
+}
+.j-social-cont > a > img{
+  height: 23px;
+  width: 23px;
+}
+.j-social-cont > a{
+  display: flex;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(255, 255, 255, 0.082);
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.f-2-img-text > div > img{
+  height: 20px;
+  width: 20px;
+  
+}
+.f-2-img-text {
+display: flex;
+}
+.f-2-img-text > p{
+  display: inline-block;
+  width: 200px;
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.445);
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 438px){
+  /* *{
+    outline: 2px solid red;
+  } */
+  .job-adv-m-cont{
+    margin-left: 10svw;
+  }
+  .job-adv-m-cont > p {
+    line-height: 8svw;
+    padding-top: 47svw;
+    font-size: 4svw;
+  }
+  .job-adv-m-cont > h1{
+    color: white;
+    font-size: 13svw;
+    letter-spacing: 0.5svw;
+    line-height: 16svw;
+
+  }
+  .job-adv-m-cont > h6{
+    font-size: 13svw;
+    letter-spacing: 0.5svw;
+    line-height: 16svw;
+  }
+  .options-cont {
+    display: flex;
+    background-color: white;
+    gap: 2svw;
+    width: 86svw;
+    height: 80svw;
+    flex-direction: column;
+    padding-left: 2svw;
+  }
+  .options-cont > input{
+    width: 81svw;
+  }
+  select {
+    width: 81svw;
+    background: transparent;
+    height: 48px;
+  }
+  .search-btn {
+    width: 79svw;
+    font-size: 17px;
+    height: 13svw;
+  }
+  .job-i-cont {
+    top: 11svw;
+    left: 1svw;
+  }
+  .j2-m-cont {
+    height: 301svw;
+    gap: 10svw;
+    flex-direction: column;
+  }
+  .current-j-m-cont {
+    height: 376svw;
+  }
+  .j-cat-conts-cont {
+    height: 297svw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0svw;
+    flex-direction: column;
+  }
+  .j-cat-conts {
+    height: 72svw;
+}
+  .cates {
+    border: 1.5px solid #D5F3E2;
+    height: 26.5svw;
+    width: 90.5svw;
+  }
+  .counting-m-cont {
+    gap: 9svw;
+    height: 163svw;
+    flex-direction: column;
+  }
+  .m-cont{
+    height: 160svw;
+  }
+  .news-m-cont {
+    height: 142svw;
+  }
+  .news-m-cont > p{
+    width: 80svw;
+  }
+  .news-m-cont > form > input {
+    width: 50svw;
+  }
+  .main-cont {
+    height: 219svw ;
+  }  
+  .content{
+    padding-left: 0svw !important;
+  }
+  #count-content{
+    padding-left: 0px !important;
+  }
+  .content > h1{
+    font-size: 12svw !important;
+  }
+  .m2-cont{
+    height: 161svw !important;
+  }
+  .content-m-cont {
+    display: flex;
+    justify-content: space-around;
+    gap: 0svw;
+    flex-direction: column;
+  }
+  .content-cont {
+      height: 65svw;
+      width: 68svw;
+      margin-top: 14svh;
+  }
+  .j-footer-m-cont {
+    height: 250svw;
+  }
+  #gen-m-cont{
+    height: 200svw;
+  }
+}
+@media (min-width: 438px) and (max-width: 768px){
+  .options-cont {
+
+      display: flex;
+      background-color: white;
+      /* gap: -4svw; */
+      width: 80svw;
+      height: 11svw;
+      /* flex-direction: column; */
+      /* padding-left: 2svw; */
+  }
+  .search-btn{
+    width: 16svw;
+  }
+  #gen-m-cont{
+    height: 200svw;
+  }
+}
+@media (min-width: 769px) and (max-width: 972px){
+  .options-cont {
+
+      display: flex;
+      background-color: white;
+      /* gap: -4svw; */
+      width: 80svw;
+      height: 11svw;
+      /* flex-direction: column; */
+      /* padding-left: 2svw; */
+  }
+  .search-btn{
+    width: 16svw;
+  }
+  /* .main-cont {
+      height: 70svw;
+    }
+    .content{
+      height: 80svw !important;
+  /* padding-left: 15svw !important; */
+  /* padding-bottom: 12svh !important; */
+    /* } */ 
+}
